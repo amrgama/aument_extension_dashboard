@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .layout-grid{
+        grid-template-columns: min-content auto;
+    }
+    aside.collapsed{
+        width: 61px !important;
+    }
+    aside.collapsed ul li a span{
+        display: none !important;
+    }
+}
